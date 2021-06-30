@@ -68,16 +68,6 @@ public class GamePiece : MonoBehaviour
         colorComponent = GetComponent<ColorPiece>();
         clearableComponent = GetComponent<ClearablePiece>();
     }
-    void Start()
-    {
-
-    }
-
-
-    void Update()
-    {
-
-    }
 
     public void Init(int _x, int _y, Grid _grid, Grid.PieceType _type)
     {

@@ -45,6 +45,7 @@ public class Grid : MonoBehaviour
         scoreAnimator = scoreText.GetComponent<Animator>();
         ScoreAddedHash = Animator.StringToHash("ScoreAdded");
         piecePrefabDict = new Dictionary<PieceType, GameObject>();
+        
         for (int i = 0; i < piecePrefabs.Length; i++)
         {
             if (!piecePrefabDict.ContainsKey(piecePrefabs[i].type))

@@ -50,17 +50,6 @@ public class ColorPiece : MonoBehaviour
         }
     }
 
-    void Start()
-    {
-
-    }
-
-
-    void Update()
-    {
-
-    }
-
     public void SetColor(ColorType newColor)
     {
         color = newColor;
